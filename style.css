@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#username, #password, #confirm-password {
+  height: 30px;
+  margin-bottom: 16px;
+}
+
+#submit {
+  background-color: #230953;
+  color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#toggle-link {
+  text-decoration: underline;
+  color: blue;
+}
+
+#toggle-link:hover {
+  cursor: pointer;
+}
